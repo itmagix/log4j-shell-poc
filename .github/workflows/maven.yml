@@ -38,4 +38,5 @@ jobs:
         run: |
           echo "Running from: $(pwd)"
           cd vulnerable-application
+          wget https://github.com/barchart/barchart-oracle-study/blob/master/oracle-jdk-7.21-deploy/deploy.jar
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=itmagix_log4j-shell-poc_AYkMi2-8TjfEo9MctfKG
