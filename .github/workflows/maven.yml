@@ -37,5 +37,5 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         run: |
           echo "Running from: $(pwd)"
-          cd log4j-shell-poc
+          cd vulnerable-application
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=itmagix_log4j-shell-poc_AYkMi2-8TjfEo9MctfKG
