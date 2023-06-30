@@ -55,7 +55,7 @@
            <artifactId>deploy-jar</artifactId>
            <version>1.0</version>
            <scope>system</scope>
-           <systemPath><vulnerable-application/deploy.jar></systemPath>
+           <systemPath>vulnerable-application/deploy.jar</systemPath>
         </dependency>
     </dependencies>
 
